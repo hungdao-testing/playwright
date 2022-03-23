@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "es5",
+    "lib": ["ES2015"],
+
+    /* Modules */
+    "module": "commonjs",
+
+    "esModuleInterop": true,
+
+    "forceConsistentCasingInFileNames": true,
+
+    "strict": true,
+
+    "skipLibCheck": true,
+    "typeRoots": ["./types", "./node_modules/@types"],
+    "rootDirs": ["./src", "./config"],
+    "outDir": "./dist",
+    "sourceMap": true
+  },
+  "exclude": ["node_modules", "types"]
+}
